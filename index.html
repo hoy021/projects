@@ -50,7 +50,7 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu">
+<!--   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
       <a class="navbar-item" href="https://keunhong.com">
       <span class="icon">
@@ -79,7 +79,7 @@
       </div> -->
     </div>
 
-  </div>
+  </div> -->
 </nav>
 
 
@@ -150,7 +150,7 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -164,9 +164,9 @@
       </h2>
     </div>
   </div>
-</section>
-
-
+</section> -->
+  
+<!-- 
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -222,7 +222,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -233,10 +233,30 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            There are two major challenges for scaling up robot
+            navigation around dynamic obstacles: the complex interaction
+            dynamics of the obstacles can be hard to model analytically,
+            and the complexity of planning and control grows exponentially
+            in the number of obstacles. Data-driven and learning-based
+            methods are thus particularly valuable in this context. However,
+            data-driven methods are sensitive to distribution drift, making
+            it hard to train and generalize learned models across different
+            obstacle densities. We propose a novel method for compositional
+            learning of Sequential Neural Control Barrier models (SNCBFs) to achieve scalability. 
+            Our approach exploits an important
+            observation: the spatial interaction patterns of multiple dynamic
+            obstacles can be decomposed and predicted through temporal
+            sequences of states for each obstacle. Through decomposition,
+            we can generalize control policies trained only with a small
+            number of obstacles, to environments where the obstacle
+            density can be 100x higher. We demonstrate the benefits of
+            the proposed methods in improving dynamic collision avoidance
+            in comparison with existing methods including potential fields,
+            end-to-end reinforcement learning, and model-predictive control.
+            We also perform hardware experiments and show the practical
+            effectiveness of the approach in the supplementary video.
           </p>
-          <p>
+<!--           <p>
             Our approach augments neural radiance fields
             (NeRF) by optimizing an
             additional continuous volumetric deformation field that warps each observed point into a
@@ -258,7 +278,7 @@
             images of the same pose at different viewpoints. We show that our method faithfully
             reconstructs non-rigidly deforming scenes and reproduces unseen views with high
             fidelity.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -279,7 +299,7 @@
 </section>
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
@@ -415,7 +435,7 @@
   </div>
 </section>
 
-
+ -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -430,7 +450,7 @@
 
 
 <footer class="footer">
-  <div class="container">
+<!--   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
@@ -439,7 +459,7 @@
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
-    </div>
+    </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
